@@ -1,7 +1,19 @@
-Introduction and 
+http://www.toptal.com/data-science/algorithmic-trading-a-practical-tale-for-engineers
+
+
+Introduction and Whole process
   1. Introduction page (team members)
   2. What are we doing and why? (combining cloud computing techniques with trading algorithm, 
     enabling high frequency trading and flexible changing strategies)
   3. algo lifecycle? 
-    Stock pool - Selection criteria - Algorithm design - Back Testing - 
-  4.
+    Stock pool - Selection criteria - Algorithm design - Backtesting - Real-time simulation - Algo Trading
+  4. Techniques enablers
+    Zipline, Yahoo finance API, EC2(m3largex2?), HFT - Bloomberg API(only 140 days of intraday data)
+
+Data Overview and Pre-treatment
+  5. Dataset (streaming data from Yahoo finance API, scale - 6 fields * 8177 days * 502 stocks)
+    use "Adj closing price" to do pre-treatment and selection
+  6. Algo overview
+    a. dual moving average - fundamental
+    
+  7.b. spread trading
